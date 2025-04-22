@@ -1,37 +1,28 @@
 # selenium-web-automation-java-maven-ci-cd-with-azure-devops
-Automated web testing using **Selenium WebDriver (Java)** with **Maven**, integrated into **Azure DevOps CI/CD**.
+# Selenium WebDriver Automation with Azure DevOps CI/CD
 
-📖 **Related Article**: [How to Set Up Selenium CI/CD Pipeline in Azure DevOps]([https://your-article-link-here/](https://www.linkedin.com/pulse/integrating-java-selenium-automation-azure-devops-ci-pipeline-mitul-nof2c/?trackingId=E93qmakapc34FVN83nYoAQ%3D%3D)
+[![Azure DevOps Build Status](https://dev.azure.com/{organization}/{project}/_apis/build/status/{definition-id})](https://dev.azure.com/{organization}/{project}/_build/latest?definitionId={definition-id})
 
-* * *
+Automated web testing framework using Selenium WebDriver with Java and Maven, integrated into Azure DevOps CI/CD pipeline.
 
-## **Quick Start**
+## 📖 Related Article
+[How to Set Up Selenium CI/CD Pipeline in Azure DevOps](https://www.linkedin.com/pulse/integrating-java-selenium-automation-azure-devops-ci-pipeline-mitul-nof2c/)
 
-### **Prerequisites**
+## 🚀 Features
+- Cross-browser testing support (Chrome/Firefox)
+- Azure DevOps CI/CD pipeline integration
+- Automated test execution on code push
+- Comprehensive test reporting
+- Maven-based dependency management
 
-* *   Java JDK 11+ | Maven 3.8+ | Chrome/Firefox
-    
-### **Run Tests Locally**
+## 📋 Prerequisites
+- Java JDK 11+
+- Maven 3.8+
+- Chrome or Firefox browser
+- Azure DevOps account (for CI/CD)
 
-bash
-
-Copy
-
-Download
-
- ```
- git clone <repo-url\>  
-cd <project-folder\>  
-mvn clean test
- ```
-### **Test Reports**
-
-* *   **Surefire**: `target/surefire-reports/`
-*     
-
-## **Azure DevOps CI Pipeline**
-
-✅ **Automated Build & Test** on every `main` push  
-✅ **Publishes Results** in Azure DevOps
-
-🔧 **Pipeline File**: `azure-pipelines.yml`
+## 🛠️ Installation
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd <project-folder>
